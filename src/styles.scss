@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "swiper/css/bundle";
+@import'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
+@import'./theme/base';
+@import'./theme/fonts';
+
+
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #533BC4;
+    -webkit-user-select: none; /* Disable text selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+    
+    
+}
+
+html, body {
+    scrollbar-width: none;
+    touch-action: manipulation; /* Disable double-tap to zoom */
+    -ms-touch-action: manipulation;
+    overscroll-behavior: contain; /* Disable scroll chaining */
+  }

@@ -1,0 +1,1256 @@
+@import "../../../../theme/variables";
+
+/* --- home-hero --- */
+section.home-hero {
+    // height: 100dvh;
+    min-height: 1280px;
+    max-height: 1280px;
+    position: relative;
+    background: linear-gradient(196.43deg, #DF5C77 -8.66%, #C95783 0.87%, #9F4D9A 21.63%, #7E45AC 41.85%, #6640B9 61.1%, #583CC1 79%, #533BC4 94.22%);
+    overflow: hidden;
+
+    .box{
+        margin-top: 3%;
+        scale: 1;
+    }
+}
+
+@media (max-width:1440px){
+
+    section.home-hero {
+    min-height: 1000px;
+    max-height: 1280px;
+    }
+    
+}
+
+@media (max-width:500px) {
+    section.home-hero {
+        min-height: 100svh;
+        max-height: 800px;
+
+        .box{
+            margin-top: 50%;
+            padding-top: 10%;
+            
+        }
+    }
+}
+
+/* --- home-hero-shape-one --- */
+.home-hero-shape-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    img {
+        max-width: 676px;
+    }
+}
+
+@media (max-width:1870px) {
+    .home-hero-shape-one {
+        img {
+            max-width: 490px;
+        }
+    }
+}
+
+@media (max-width:1600px) {
+    .home-hero-shape-one {
+        img {
+            max-width: 435px;
+        }
+    }
+}
+
+@media (max-width:1450px) {
+    .home-hero-shape-one {
+        left: -8%;
+    }
+}
+
+@media (max-width:1088px) {
+    .home-hero-shape-one {
+        left: -16%;
+
+        img {
+            max-width: 589px;
+        }
+    }
+}
+
+@media (max-width:850px) {
+    .home-hero-shape-one {
+        left: -22%;
+
+        img {
+            max-width: 600px;
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .home-hero-shape-one {
+        left: -30%;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-hero-shape-one {
+        left: -62%;
+    }
+}
+
+/* --- fashion-week --- */
+.fashion-week {
+    position: absolute;
+    top: 0;
+    left: 34%;
+
+    .fashion-week-child {
+        position: relative;
+
+        .fashion-week-first-shape {
+            img {
+                max-width: 414px;
+                transition: all 1.2s ease;
+                transform: scale(1.05) translate(0px, -28px);
+            }
+        }
+
+        .fashion-week-second-shape {
+            position: relative;
+            top: -231px;
+            right: -144px;
+
+            img {
+                max-width: 616px;
+                transition: all 1.2s ease;
+                transform: translate(0, 0);
+            }
+        }
+
+        .fashion-week-three-shape {
+            position: absolute;
+            right: -1%;
+            top: 1.6%;
+
+            img {
+                max-width: 465px;
+                transition: all 1.2s ease;
+                transform: translateY(0);
+            }
+        }
+
+        .fashion-week-four-shape {
+            position: absolute;
+            top: 11%;
+            left: -33%;
+            z-index: 1;
+
+            .fashion-week-four-shape-child {
+                position: relative;
+
+                .fashion-week-four-shape-child-shape {
+                    img {
+                        max-width: 757px;
+                        min-width: 757px;
+                    }
+                }
+
+                .fashion-week-four-shape-child-details {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    img {
+                        max-width: 400px;
+                        min-width: 400px;
+                    }
+                }
+            }
+        }
+
+        .fashion-week-five-shape {
+            position: absolute;
+            bottom: 14%;
+            left: 11%;
+
+            img {
+                max-width: 283px;
+                min-width: 283px;
+                transition: all 0.6s ease;
+                transform: translate(0, 0);
+            }
+        }
+    }
+
+    &:hover {
+
+        .fashion-week-child {
+            .fashion-week-first-shape {
+                img {
+                    transform: scale(1.05) translate(-12px, -12px);
+                }
+            }
+
+            .fashion-week-second-shape {
+                img {
+                    transform: translate(23px, 10px);
+                }
+            }
+
+            .fashion-week-three-shape {
+                img {
+                    transform: translateY(-10px);
+                }
+            }
+
+            .fashion-week-five-shape {
+                img {
+                    transform: translate(-13px, 13px);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1870px) {
+    .fashion-week {
+        .fashion-week-child {
+            .fashion-week-first-shape {
+                img {
+                    max-width: 380px;
+                }
+            }
+
+            .fashion-week-second-shape {
+                img {
+                    max-width: 610px;
+                }
+            }
+
+            .fashion-week-three-shape {
+                right: -7.5%;
+                top: 1.6%;
+            }
+
+            .fashion-week-four-shape {
+                .fashion-week-four-shape-child {
+                    .fashion-week-four-shape-child-details {
+                        img {
+                            max-width: 360px;
+                            min-width: 360px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1600px) {
+    .fashion-week {
+        left: 32.5%;
+
+        .fashion-week-child {
+            .fashion-week-first-shape {
+                img {
+                    max-width: 340px;
+                }
+            }
+
+            .fashion-week-second-shape {
+                img {
+                    max-width: 545px;
+                }
+            }
+
+            .fashion-week-three-shape {
+                right: -8.5%;
+
+                img {
+                    max-width: 396px;
+                }
+            }
+
+            .fashion-week-four-shape {
+                .fashion-week-four-shape-child {
+                    .fashion-week-four-shape-child-shape {
+                        img {
+                            max-width: 654px;
+                            min-width: 654px;
+                        }
+                    }
+
+
+                    .fashion-week-four-shape-child-details {
+                        img {
+                            max-width: 322px;
+                            min-width: 322px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .fashion-week-child {
+                .fashion-week-first-shape {
+                    img {
+                        transform: scale(1.03) translate(-6px, -12px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1450px) {
+    .fashion-week {
+        top: 8%;
+
+        .fashion-week-child {
+            .fashion-week-first-shape {
+                img {
+                    max-width: 280px;
+                }
+            }
+
+            .fashion-week-second-shape {
+                right: -116px;
+
+                img {
+                    max-width: 445px;
+                }
+            }
+
+            .fashion-week-three-shape {
+                right: -0.7%;
+                top: -0.4%;
+
+                img {
+                    max-width: 300px;
+                }
+            }
+
+            .fashion-week-four-shape {
+                .fashion-week-four-shape-child {
+                    .fashion-week-four-shape-child-shape {
+                        img {
+                            max-width: 554px;
+                            min-width: 554px;
+                        }
+                    }
+
+                    .fashion-week-four-shape-child-details {
+                        img {
+                            max-width: 260px;
+                            min-width: 260px;
+                        }
+                    }
+                }
+            }
+
+            .fashion-week-five-shape {
+                img {
+                    max-width: 250px;
+                    min-width: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .fashion-week {
+        left: 28.5%;
+
+        .fashion-week-child {
+            .fashion-week-first-shape {
+                img {
+                    max-width: 200px;
+                }
+            }
+
+            .fashion-week-second-shape {
+                right: -60px;
+                top: -171px;
+
+                img {
+                    max-width: 370px;
+                }
+            }
+
+            .fashion-week-three-shape {
+                right: -5.4%;
+                top: -4.4%;
+
+                img {
+                    max-width: 270px;
+                }
+            }
+
+            .fashion-week-four-shape {
+                .fashion-week-four-shape-child {
+                    .fashion-week-four-shape-child-shape {
+                        img {
+                            max-width: 400px;
+                            min-width: 400px;
+                        }
+                    }
+
+                    .fashion-week-four-shape-child-details {
+                        img {
+                            max-width: 187px;
+                            min-width: 187px;
+                        }
+                    }
+                }
+            }
+
+            .fashion-week-five-shape {
+                img {
+                    max-width: 200px;
+                    min-width: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1088px) {
+    .fashion-week {
+        left: 38.5%;
+        top: 13%;
+
+        .fashion-week-child {
+            .fashion-week-first-shape {
+                transform: translate(4px, -24px);
+            }
+
+            .fashion-week-three-shape {
+                right: 1.4%;
+                top: -4.4%;
+            }
+
+            .fashion-week-four-shape {
+                top: 2%;
+                left: -39%;
+
+                .fashion-week-four-shape-child {
+                    .fashion-week-four-shape-child-shape {
+                        img {
+                            max-width: 450px;
+                            min-width: 450px;
+                        }
+                    }
+
+                    .fashion-week-four-shape-child-details {
+                        img {
+                            max-width: 220px;
+                            min-width: 220px;
+                        }
+                    }
+                }
+            }
+
+            .fashion-week-five-shape {
+                bottom: 13%;
+                left: 4%;
+            }
+        }
+
+        &:hover {
+            .fashion-week-child {
+                .fashion-week-first-shape {
+                    img {
+                        transform: translate(4px, -24px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:850px) {
+    .fashion-week {
+        left: 33.5%;
+        top: 18%;
+
+        &:hover {
+            .fashion-week-child {
+                .fashion-week-first-shape {
+                    img {
+                        transform: translate(4px, -24px);
+                    }
+                }
+
+                .fashion-week-second-shape {
+                    img {
+                        transform: translate(0, 0);
+                    }
+                }
+
+                .fashion-week-three-shape {
+                    img {
+                        transform: translateY(0);
+                    }
+                }
+
+                .fashion-week-five-shape {
+                    img {
+                        transform: translate(0, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:670px) {
+    .fashion-week {
+        left: 22.5%;
+        top: 18%;
+    }
+}
+
+@media (max-width:550px) {
+    .fashion-week {
+        left: 22.5%;
+        top: 5%;
+
+        .fashion-week-child {
+            position: relative;
+
+            .fashion-week-first-shape {
+                transform: translate(4px, -44px);
+
+                img {
+                    max-width: 175px;
+                }
+            }
+
+            .fashion-week-second-shape {
+                img {
+                    max-width: 300px;
+                }
+            }
+
+            .fashion-week-three-shape {
+                right: 5%;
+                top: -10.4%;
+
+                img {
+                    max-width: 220px;
+                }
+            }
+
+            .fashion-week-four-shape {
+                top: -4%;
+                left: -39%;
+
+                .fashion-week-four-shape-child {
+                    .fashion-week-four-shape-child-shape {
+                        img {
+                            max-width: 360px;
+                            min-width: 360px;
+                        }
+                    }
+
+                    .fashion-week-four-shape-child-details {
+                        img {
+                            max-width: 170px;
+                            min-width: 170px;
+                        }
+                    }
+                }
+            }
+
+            .fashion-week-five-shape {
+                bottom: 24%;
+                left: 8%;
+
+                img {
+                    max-width: 140px;
+                    min-width: 140px;
+                }
+            }
+        }
+
+        &:hover {
+            .fashion-week-child {
+                .fashion-week-first-shape {
+                    img {
+                        transform: translate(4px, -44px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .fashion-week {
+        left: 15.5%;
+        top: 30%;
+
+        .fashion-week-child {
+            .fashion-week-first-shape {
+                img {
+                    max-width: 145px;
+                }
+            }
+
+            .fashion-week-second-shape {
+                img {
+                    max-width: 227px;
+                }
+            }
+
+            .fashion-week-three-shape {
+                right: 1.5%;
+                top: -13.4%;
+
+                img {
+                    max-width: 155px;
+                    min-width: 155px;
+                }
+            }
+
+            .fashion-week-four-shape {
+                top: -12%;
+                left: -41%;
+
+                .fashion-week-four-shape-child {
+                    .fashion-week-four-shape-child-shape {
+                        img {
+                            max-width: 330px;
+                            min-width: 330px;
+                        }
+                    }
+
+                    .fashion-week-four-shape-child-details {
+                        img {
+                            max-width: 155px;
+                            min-width: 155px;
+                        }
+                    }
+                }
+            }
+
+            .fashion-week-five-shape {
+                bottom: 25%;
+                left: 4%;
+            }
+        }
+    }
+}
+
+/* --- fashion-week-date --- */
+.fashion-week-date {
+    position: absolute;
+    // top: 28%;
+    // left: 10%;
+    top: 19%;
+    left: 10.8%;
+
+    img {
+        max-width: 190px;
+    }
+}
+
+@media (max-width:1870px) {
+    .fashion-week-date {
+        img {
+            max-width: 176px;
+        }
+    }
+}
+
+@media (max-width:1600px) {
+    .fashion-week-date {
+        top: 23.5%;
+        left: 8%;
+
+        img {
+            max-width: 140px;
+        }
+    }
+}
+
+@media (max-width:1450px) {
+    .fashion-week-date {
+        top: 18%;
+        left: 6%;
+    }
+}
+
+@media (max-width:1088px) {
+    .fashion-week-date {
+        top: 7%;
+        left: 2%;
+    }
+}
+
+@media (max-width:850px) {
+    .fashion-week-date {
+        left: 3%;
+
+        img {
+            max-width: 120px;
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .fashion-week-date {
+        left: 6%;
+        top: 6%;
+
+        img {
+            max-width: 90px;
+        }
+    }
+}
+
+/* --- fashion-week-location --- */
+.fashion-week-location {
+    position: absolute;
+    // top: 28%;
+    right: 10%;
+    top: 19.8%;
+    img {
+        max-width: 158px;
+    }
+}
+
+@media (max-width:1870px) {
+    .fashion-week-location {
+        img {
+            max-width: 150px;
+        }
+    }
+}
+
+@media (max-width:1600px) {
+    .fashion-week-location {
+        top: 23.5%;
+        right: 8%;
+
+        img {
+            max-width: 128px;
+        }
+    }
+}
+
+@media (max-width:1450px) {
+    .fashion-week-location {
+        top: 18%;
+        right: 6%;
+    }
+}
+
+@media (max-width:1088px) {
+    .fashion-week-location {
+        top: 7%;
+        right: 2%;
+
+        img {
+            max-width: 117px;
+        }
+    }
+}
+
+@media (max-width:850px) {
+    .fashion-week-location {
+        img {
+            max-width: 98px;
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .fashion-week-location {
+        right: 6%;
+        top: 6%;
+
+        img {
+            max-width: 79px;
+        }
+    }
+}
+
+/* --- fashion-week-tickets --- */
+.fashion-week-tickets {
+    position: absolute;
+    bottom: 10%;
+    left: 65%;
+    
+    z-index: 15;
+    scale: 0.9;
+
+    .fashion-week-tickets-child {
+        position: relative;
+
+        .fashion-week-ticket-shape {
+            img {
+                max-width: 650px;
+                height: 650px;
+                scale:1.5;
+
+                animation: spin 6s linear infinite alternate;
+            }
+        }
+
+        .fashion-week-ticket-link {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            a {
+                font-family: $font-en-primary;
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 51.04px;
+                text-align: right;
+                color: $color-white;
+                text-decoration: underline;
+                height: 50px;
+                overflow: hidden;
+
+                span {
+                    display: block;
+                    transition: all 0.3s ease;
+                }
+
+                &:hover {
+                    span {
+                        &:first-child {
+                            transform: translateY(-50px);
+                        }
+
+                        &:last-child {
+                            transform: translateY(-50px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes spin {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+@media (max-width:1920px) {
+    .fashion-week-tickets {
+        right: 1%;
+    }
+}
+
+@media (max-width:1870px) {
+    .fashion-week-tickets {
+        // right: 4%;
+         bottom: 15%;
+        scale: .8;
+
+        .fashion-week-tickets-child {
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 600px;
+                    height: 600px;
+                }
+            }
+
+            .fashion-week-ticket-link {
+                a {
+                    font-size: 40px;
+                    line-height: 44px;
+                    height: 44px;
+
+                    &:hover {
+                        span {
+                            &:first-child {
+                                transform: translateY(-44px);
+                            }
+
+                            &:last-child {
+                                transform: translateY(-44px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1790px) {
+    .fashion-week-tickets {
+        bottom: 15%;
+        // right: 2.3%;
+    }
+}
+
+@media (max-width:1600px) {
+    .fashion-week-tickets {
+        bottom: 38%;
+        
+
+
+        .fashion-week-tickets-child {
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 400px;
+                    height: 400px;
+                    scale: 2;
+
+                }
+            }
+
+            .fashion-week-ticket-link {
+                a {
+                    font-size: 36px;
+                    line-height: 40px;
+
+                    &:hover {
+                        span {
+                            &:first-child {
+                                transform: translateY(-40px);
+                            }
+
+                            &:last-child {
+                                transform: translateY(-40px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:1500px) {
+    .fashion-week-tickets {
+        bottom: 20%;
+        left: 70%;
+        
+
+
+        .fashion-week-tickets-child {
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 400px;
+                    height: 400px;
+                    scale: 2;
+
+                }
+            }
+
+            .fashion-week-ticket-link {
+                a {
+                    font-size: 36px;
+                    line-height: 40px;
+
+                    &:hover {
+                        span {
+                            &:first-child {
+                                transform: translateY(-40px);
+                            }
+
+                            &:last-child {
+                                transform: translateY(-40px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .fashion-week-tickets {
+        bottom: 8.5%;
+        
+
+
+        .fashion-week-tickets-child {
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 600px;
+                    height: 600px;
+                }
+            }
+
+            .fashion-week-ticket-link {
+                a {
+                    font-size: 36px;
+                    line-height: 40px;
+
+                    &:hover {
+                        span {
+                            &:first-child {
+                                transform: translateY(-40px);
+                            }
+
+                            &:last-child {
+                                transform: translateY(-40px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media (max-width:1200px) {
+//     .fashion-week-tickets {
+//         bottom: 20%;
+//         // right: -12%;
+
+//         .fashion-week-tickets-child {
+//             .fashion-week-ticket-shape {
+//                 img {
+//                     max-width: 600px;
+//                     height: 600px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+@media (max-width:850px) {
+    .fashion-week-tickets {
+        bottom: 3%;
+
+        .fashion-week-tickets-child {
+
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 600px;
+                    height: 600px;
+                }
+            }
+
+
+            .fashion-week-ticket-link {
+
+                a {
+                    font-size: 32px;
+                    line-height: 34px;
+                    height: 34px;
+
+                    &:hover {
+                        span {
+                            &:first-child {
+                                transform: translateY(-34px);
+                            }
+
+                            &:last-child {
+                                transform: translateY(-34px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:670px) {
+    .fashion-week-tickets {
+        right: -20%;
+    }
+}
+
+@media (max-width:550px) {
+    .fashion-week-tickets {
+        .fashion-week-tickets-child {
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 450px;
+                    height: 450px;
+                }
+            }
+
+            .fashion-week-ticket-link {
+                a {
+                    font-size: 23px;
+                    line-height: 34px;
+                    height: 34px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .fashion-week-tickets {
+        right: -26%;
+        bottom: 30%;
+
+        .fashion-week-tickets-child {
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 400px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .fashion-week-tickets {
+        // right: -26%;
+        bottom: 20%;
+        left: 40%;
+
+        .fashion-week-tickets-child {
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 280px;
+                    height: 280px;
+                    scale: 1.3;
+                }
+            }
+
+            .fashion-week-ticket-link {
+                
+                padding-right: 10%;
+                a {
+                    font-size: 20px;
+                    line-height: 30px;
+                    height: 30px;
+
+                    &:hover {
+                        span {
+                            &:first-child {
+                                transform: translateY(-30px);
+                            }
+
+                            &:last-child {
+                                transform: translateY(-30px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:390px) {
+    .fashion-week-tickets {
+        // right: -21%;
+        bottom: 0%;
+        left: 48%;
+        scale: 1.1;
+    }
+}
+
+@media (max-width:389px) {
+    .fashion-week-tickets {
+        bottom: 10%;
+        left: 36%;
+        scale: 1.1;
+
+        .fashion-week-tickets-child {
+            .fashion-week-ticket-shape {
+                img {
+                    max-width: 280px;
+                    height: 280px;
+                }
+            }
+
+            .fashion-week-ticket-link {
+                padding-left: 1.2%;
+                a {
+                    font-size: 20px;
+                    line-height: 30px;
+                    height: 30px;
+
+                    &:hover {
+                        span {
+                            &:first-child {
+                                transform: translateY(-30px);
+                            }
+
+                            &:last-child {
+                                transform: translateY(-30px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .fashion-week-tickets{
+        bottom: 1%;
+        left: 40%;
+        scale: 1.1;
+    }
+}
+
+
+/* --- home-hero-shape-two --- */
+.home-hero-shape-two {
+    position: absolute;
+    bottom: -6.8%;
+    left: 10%;
+    z-index: 1;
+
+    img {
+        max-width: 595px;
+        width: 100%;
+    }
+}
+
+@media (max-width:1600px) {
+    .home-hero-shape-two {
+        img {
+            max-width: 550px;
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .home-hero-shape-two {
+        left: 4%;
+        bottom: -4.8%;
+
+        img {
+            max-width: 430px;
+        }
+    }
+}
+
+@media (max-width:850px) {
+    .home-hero-shape-two {
+        left: -5%;
+        bottom: -12.8%;
+        display: none;
+
+        img {
+            max-width: 400px;
+        }
+    }
+}
