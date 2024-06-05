@@ -120,11 +120,11 @@ section.home-organizer-and-partner {
         .flower2{
             
             top: 42%;
-            left: 0%;
+            left: -10%;
             z-index: 0;
             img{
-                height: 940px;
-                width: 940px;
+                height: 840px;
+                width: 840px;
     
     
                 // height: 398px;
@@ -132,6 +132,14 @@ section.home-organizer-and-partner {
                
             }
             
+        }
+
+        .sponsors2{
+            position: relative;
+            left: 44%;
+            top: 11%;
+            width: 650px;
+            height: 347px;
         }
     }
 }
@@ -420,7 +428,7 @@ section.home-organizer-and-partner {
 
         .sponsors2{
             position: relative;
-            left: 4%;
+            left: 2%;
             top: 18%;
             width: 349px;
             height: 180px;
@@ -871,18 +879,22 @@ section.home-organizer-and-partner {
 
 @media (max-width:1600px) {
     .home-organizer-get-ticket {
+        position: absolute;
+        bottom: 38%;
+        right: 3%;
+        z-index: 11;
         .home-organizer-get-ticket-child {
             img {
                 max-width: 939px;
                 min-width: 939px;
                 height: 939px;
                 bottom: -28%;
-                right: -22%;
+                right: -18%;
             }
 
             a {
                 top: 80%;
-                left: 76%;
+                left: 70%;
             }
         }
     }
